@@ -5,6 +5,9 @@ public class Employee {
 	private String name;
 	private int age;
 	private int phone;
+	private String email;
+	
+	
 	public int getPhone() {
 		return phone;
 	}
@@ -21,7 +24,7 @@ public class Employee {
 		this.email = email;
 	}
 
-	private String email;
+	
 	
 	public int getId() {
 		return id;
